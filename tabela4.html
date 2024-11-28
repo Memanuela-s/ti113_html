@@ -31,7 +31,8 @@ Usuários ilimitados <br>
        
     </tr> --->
 
-    <!DOCTYPE html>
+   <!---->
+    <!---- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -85,5 +86,127 @@ Usuários ilimitados <br>
             </td>
         </tr>
     </table>
+</body>
+</html>
+ ---> 
+
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção de Preços</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .pricing-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .pricing-section h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .pricing-section p {
+            color: #666;
+            margin-bottom: 40px;
+        }
+        .pricing-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .card .price {
+            font-size: 2em;
+            color: #333;
+            margin: 10px 0;
+        }
+        .card ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            color: #555;
+        }
+        .card ul li {
+            margin-bottom: 10px;
+        }
+        .card button {
+            background-color: #ff4c68;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .card button:hover {
+            background-color: #e0435d;
+        }
+        .card:nth-child(2) button {
+            background-color: #7b5ba6;
+        }
+        .card:nth-child(2) button:hover {
+            background-color: #694c8f;
+        }
+        .card:nth-child(3) button {
+            background-color: #4b4f95;
+        }
+        .card:nth-child(3) button:hover {
+            background-color: #3e427d;
+        }
+    </style>
+</head>
+<body>
+    <section class="pricing-section">
+        <h1>Preços</h1>
+        <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+        <div class="pricing-cards">
+            <div class="card">
+                <h2>Começar</h2>
+                <p class="price">Livre</p>
+                <ul>
+                    <li>Um usuário</li>
+                    <li>Um projeto</li>
+                </ul>
+                <button>Peça agora</button>
+            </div>
+            <div class="card">
+                <h2>Médio</h2>
+                <p class="price">$49.99</p>
+                <ul>
+                    <li>100 usuários</li>
+                    <li>100 projetos</li>
+                </ul>
+                <button>Peça agora</button>
+            </div>
+            <div class="card">
+                <h2>Especialista</h2>
+                <p class="price">$129.99</p>
+                <ul>
+                    <li>Usuários ilimitados</li>
+                    <li>Projetos ilimitados</li>
+                </ul>
+                <button>Peça agora</button>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
