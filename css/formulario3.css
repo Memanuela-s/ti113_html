@@ -1,5 +1,5 @@
 body{
-    background-color: 2d3b50;
+    background-color: #d3d7de;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1{
@@ -10,7 +10,7 @@ form {
     margin: 0 auto;
     width: 50%;
     height: 500px;
-    background-color: #bbb;
+    background-color: #2c3e50;
 }
  
 table {
@@ -30,7 +30,7 @@ textarea {
     margin: 10px 0;
 }
 button{
-    background-color: #0e347a;
+    background-color: #506680;
     color: white;
     padding: 10px 30px;
 }
